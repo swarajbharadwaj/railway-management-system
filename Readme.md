@@ -38,7 +38,7 @@ This project implements a Railway Management System where users can:
 - **Express.js**: Web framework for building REST APIs.
 - **MySQL**: Relational database for storing train and booking information.
 - **JWT (JSON Web Token)**: For authenticating users during seat booking (optional feature, based on your implementation).
-- **Sequelize (Optional)**: For interacting with MySQL using an ORM (not included, but can be added).
+
 
 ## Setup and Installation
 1. Clone the repository:
@@ -57,9 +57,9 @@ This project implements a Railway Management System where users can:
       DB_HOST=localhost
       DB_PASSWORD=your-password
       DB_NAME=railway-system
-      JWT_SECRET_KEY=your-secret-key
+      JWT_SECRET_KEY=SECRET_KEY
       API_KEY=your-api-key
-      PORT=PORT_NO
+      PORT=YOUR_PORT_NO
 
 ## Database Setup
 1. Create the necessary tables in MySQL:
